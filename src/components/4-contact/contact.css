@@ -1,0 +1,112 @@
+section.contact-us h1.title span {
+  margin-right: 1rem;
+  font-size: 1.8rem;
+  color: var(--subtitle);
+}
+
+section.contact-us h1.title {
+  color: var(--title);
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+}
+
+section.contact-us p.subtitle {
+  color: var(--subtitle);
+  margin-bottom: 2rem;
+  line-height: 1.65rem;
+}
+
+section.contact-us div.flex form {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section.contact-us div.flex form label {
+  color: var(--subtitle);
+  /* padding-right: 20px; */
+}
+
+section.contact-us div.flex form input,
+section.contact-us div.flex form textarea {
+  all: unset;
+  border: 1px solid rgb(63 63 70);
+  background-color: rgba(63, 63, 70, 0.15);
+  width: 16rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  padding: 0.4rem 0.3rem;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+.light section.contact-us div.flex form input,
+.light section.contact-us div.flex form textarea{
+   background-color:  rgba(255, 255, 255, 0.155);
+   color: #232324;
+   border:1px solid rgba(128, 128, 128, 0.451);
+   box-shadow: 1px 1px 1px rgba(73, 73, 75, .105);
+
+}
+
+section.contact-us div.flex form input:hover,
+section.contact-us div.flex form textarea:hover,
+section.contact-us div.flex form input:focus,
+section.contact-us div.flex form textarea:focus {
+  border: 1px solid rgb(45 212 191);
+}
+.light section.contact-us div.flex form input:hover,
+.light section.contact-us div.flex form textarea:hover,
+.light section.contact-us div.flex form input:focus,
+.light section.contact-us div.flex form textarea:focus {
+  border: 1px solid rgb(70, 80, 80);
+}
+section.contact-us div.flex form textarea {
+  resize: vertical;
+  min-height: 9rem;
+}
+
+section.contact-us div.flex form button {
+  text-align: center;
+  border: 1px solid rgb(63 63 70);
+  border-radius: 5px;
+  background-color: rgba(36, 37, 46, 1);
+  font-size: 1.05rem;
+  width: 7rem;
+  margin-top: 1.8rem;
+  padding: 0.75rem 2rem;
+  transition: 0.3s;
+}
+
+@media (max-width: 900px) {
+  section.contact-us .animation {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  
+  section.contact-us div.flex form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto ;
+    width: 85%;
+  }
+  section.contact-us div.flex form div.flex {
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+  section.contact-us div.flex form button {
+    align-self: center;
+    width: 30%;
+
+  }
+
+section.contact-us div.flex form input,
+section.contact-us div.flex form textarea{
+    margin-left: 0;
+    padding: 0.5rem 0;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+}

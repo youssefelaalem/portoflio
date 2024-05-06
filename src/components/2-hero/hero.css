@@ -1,0 +1,91 @@
+/*======================
+table of contents
+========================
+1.left section
+2.right section*/
+
+
+
+
+
+/*======================
+1.left section
+========================*/
+section.hero div.left-section {
+  width: 100%;
+  flex-grow: 1;
+}
+
+section.hero div.left-section .parent-avatar {
+  align-items: end;
+  /*align items to move the element from upper to lower screen*/
+  gap: 0.6rem;
+  min-height: 88px;
+}
+
+section.hero div.left-section img {
+  width: 88px;
+  padding: 2px;
+  border: 1px solid darkorange;
+  border-radius: 50%;
+  box-shadow: 1px 1px 40px rgb(79, 77, 77) inset;
+  margin-right: .6rem;
+}
+
+section.hero div.left-section div .icon-verified {
+  color: var(--blue);
+  margin-bottom: 0.3rem;
+  font-size: 1.2rem;
+}
+
+section.hero div.left-section h1.title {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  color: var(--title);
+  /* overflow-wrap: anywhere; */
+  margin: 20px 20px 20px 0px;
+}
+
+section.hero div.left-section p.subtitle {
+  color: var(--subtitle);
+  font-size: .9rem;
+  margin-bottom: 2.2rem;
+
+}
+
+section.hero div.left-section div.allIcons {
+  font-size: 1.2rem;
+  gap: 1.4rem;
+  color: var(--subtitle);
+}
+
+section.hero div.left-section div.allIcons .icon:hover {
+  font-size: 1.3rem;
+  color: var(--icon-hover);
+  transition: .3s;
+  cursor: pointer;
+}
+
+
+/*======================
+2.right section
+========================*/
+.right-section.animation{
+  width: 100%;
+  translate: 100px 55px;
+}
+@media (max-width: 1250px) {
+
+  .right-section.animation{
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+
+  section.hero div.left-section h1.title {
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+   
+  }
+}
