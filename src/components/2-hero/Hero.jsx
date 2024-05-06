@@ -23,7 +23,7 @@ function Hero() {
         animate={{scale:1}}
         transition={{duration:1}}
          className="title">Software designer,founder, and amateur astronaut.</motion.h1>
-        <p className="subtitle">I'm Youssef Elaalem, a software designer and entrepreneur based in New York City. I'm the
+        <p className="subtitle">I'm Youssef Elaalem, a software designer and entrepreneur based in Monufiya City. I'm the
           founder and CEO of Planetaria, where we develop
           technologies that empower regular people to
           explore space on their own terms.</p>
