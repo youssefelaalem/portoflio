@@ -30,11 +30,11 @@ function Header() {
     <div/>
       <nav>
         <ul className="flex">
-          <li><a href="">About</a></li>
-          <li><a href=""> Articles</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Speaking</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#hero">About</a></li>
+          <li><a href="#hero"> Articles</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          {/* <li><a href="">Speaking</a></li> */}
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <button className="mode flex"
@@ -46,11 +46,11 @@ function Header() {
      {appear&&<div className="fixed">
       <ul className="modal">
       <li><button className="icon-close1" onClick={disappearHandler}/></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Articles</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Speaking</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#hero">About</a></li>
+          <li><a href="#hero">Articles</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          {/* <li><a href="">Speaking</a></li> */}
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
      }

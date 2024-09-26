@@ -20,7 +20,7 @@ function Main() {
   };
 
   return (
-    <main className="flex">
+    <main className="flex" id="Projects" >
       <section className="flex leftSection">
         <button
           className={active === "All" ? "active" : null}

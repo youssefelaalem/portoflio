@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 function Hero() {
   const lottieRef = useRef();
   return (
-    <section className="flex hero">
+    <section className="flex hero" id="hero">
       <div className="left-section">
         <div className="parent-avatar flex">
           <motion.img
@@ -18,7 +18,7 @@ function Hero() {
             src="/images/formal.png"
             alt="imagePortfolio"
           />
-          <div className="icon-verified"></div>
+          {/* <div className="icon-verified"></div> */}
         </div>
         <motion.h1
           initial={{ scale: 0 }}
@@ -26,19 +26,45 @@ function Hero() {
           transition={{ duration: 1 }}
           className="title"
         >
-          Software designer,founder, and amateur astronaut.
+          Software designer.
         </motion.h1>
         <p className="subtitle">
-          I'm Youssef Elaalem, I will Graduate from the Computer Science
-          Department this year 2024 ,. I'm student at Menoufia University,I have
-          a passion for web development backend by nodejs and frontend by
-          reactjs
+          I'm Youssef Muhammad Ashref Elaalem, I graduated from the Computer
+          Science Department this year 2024 ,. a web developer specializing in
+          the MERN stack with a focus on frontend development using React. I’m
+          passionate about building responsive and dynamic web applications. I
+          thrive on solving complex problems and am committed to delivering
+          user-friendly, scalable solutions.
         </p>
         <div className="allIcons flex">
-          <div className="icon icon-twitter"></div>
-          <div className="icon icon-instagram"></div>
-          <div className="icon icon-github"></div>
-          <div className="icon icon-linkedin-square"></div>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="icon icon-twitter"></div>
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="icon icon-instagram"></div>
+          </a>
+          <a
+            href="https://github.com/youssefelaalem"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="icon icon-github"></div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/youssef-elaalem-8a3b54251/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="icon icon-linkedin-square"></div>
+          </a>
         </div>
       </div>
       <div className="right-section animation">

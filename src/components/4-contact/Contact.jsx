@@ -6,7 +6,7 @@ import animationEmail from "../../animation/animationEmail.json"
 function Contact() {
   const [state, handleSubmit] = useForm("mzbnorgp");
   return (
-    <section className="contact-us">
+    <section className="contact-us" id="contact">
       <h1 className="title">
         <span className="icon-envelope"></span> Contact us
       </h1>
