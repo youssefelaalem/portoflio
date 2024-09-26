@@ -9,7 +9,7 @@ export const allProjects = [
     name: "Ecommerce Js",
     category: ["js", "css"],
     p: "this app for Filter some products by Name of product , Price and Category with Checkout Page.",
-    imgPath: "/images/Movies-react.png",
+    imgPath: "/images/EcommerceJs.png",
     linkGithub: "https://github.com/youssefelaalem/e-commerce-JS",
   },
   {
