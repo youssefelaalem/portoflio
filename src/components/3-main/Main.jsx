@@ -2,7 +2,13 @@ import { useState } from "react";
 import "./main.css";
 import { allProjects } from "./allProjects.js";
 import { motion, AnimatePresence } from "framer-motion";
-
+const Category_Items = [
+  "All Projects",
+  "HTML & Css",
+  "js",
+  "react & Api",
+  "Backend",
+];
 function Main() {
   const [array, setArray] = useState(allProjects);
   const [active, setActive] = useState("All");
@@ -20,49 +26,27 @@ function Main() {
   };
 
   return (
-    <main className="flex" id="Projects" >
+    <main className="flex" id="Projects">
       <section className="flex leftSection">
-        <button
-          className={active === "All" ? "active" : null}
-          onClick={() => {
-            setActive("All");
-            setArray(allProjects);
-          }}
-        >
-          All Projects
-        </button>
-        <button
-          className={active === "css" ? "active" : null}
-          onClick={() => {
-            clickHandler("css");
-          }}
-        >
-          HTML & CSS
-        </button>
-        <button
-          className={active === "js" ? "active" : null}
-          onClick={() => {
-            clickHandler("js");
-          }}
-        >
-          JavaScript
-        </button>
-        <button
-          className={active === "react" ? "active" : null}
-          onClick={() => {
-            clickHandler("react");
-          }}
-        >
-          React & Api
-        </button>
-        {/* <button
-          className={active === "NodeJS" ? "active" : null}
-          onClick={() => {
-            clickHandler("NodeJS");
-          }}
-        >
-          NodeJS & Express
-        </button> */}
+        {Category_Items.map((item, index) => {
+          console.log(`item ${index + 1} `, item);
+          return (
+            <button
+              key={index}
+              className={active === item ? "active" : null}
+              onClick={() => {
+                if (item === "All Projects") {
+                  setActive(item);
+                  setArray(allProjects);
+                } else {
+                  clickHandler(item);
+                }
+              }}
+            >
+              {item}
+            </button>
+          );
+        })}
       </section>
       <section className="flex rightSection">
         <AnimatePresence>
@@ -70,10 +54,9 @@ function Main() {
             return (
               <motion.article
                 layout
-                initial={{transform:"scale(.4)"}}
-                animate={{transform:"scale(1)"}}
-                 transition={{damping:8 , type:"spring" , stiffness:50}}
-               
+                initial={{ transform: "scale(.4)" }}
+                animate={{ transform: "scale(1)" }}
+                transition={{ damping: 8, type: "spring", stiffness: 50 }}
                 key={item}
                 className="card"
               >
@@ -83,8 +66,16 @@ function Main() {
                   <p className="subtitle">{item.p}</p>
                   <div className="icons flex">
                     <div className="flex" style={{ gap: "5px" }}>
-                      <a href={item.linkProd} target="_blank" className="icon-link"></a>
-                      <a href={item.linkGithub} target="_blank" className="icon-github"></a>
+                      <a
+                        href={item.linkProd}
+                        target="_blank"
+                        className="icon-link"
+                      ></a>
+                      <a
+                        href={item.linkGithub}
+                        target="_blank"
+                        className="icon-github"
+                      ></a>
                     </div>
                     <div>
                       <a className="flex">

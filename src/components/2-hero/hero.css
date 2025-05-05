@@ -82,3 +82,48 @@ section.hero div.left-section div.allIcons .icon:hover {
     line-height: 3.2rem;
   }
 }
+
+/* My CV Button Style */
+.CV_Container {
+  margin-top: 1rem;
+}
+.cv-Dark-button{
+  display: inline-block;
+  padding: 0.8rem 1.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--title);
+  border-radius: 12px;
+  background: rgba(95, 91, 85, 0.15); /* glassy orange tint */
+  border: 1px solid var(--border);
+
+  backdrop-filter: blur(10px);
+  /* box-shadow: 0 4px 20px rgba(255, 165, 0, 0.4); */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.cv-Dark-button:hover {
+  background: var(--secondary);
+  transform: scale(1.02);
+  box-shadow: 0 1px 20px var( --shadow);
+}
+.cv-glass-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--title);
+  border-radius: 12px;
+  background: rgba(95, 91, 85, 0.15); /* glassy orange tint */
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+  /* box-shadow: 0 4px 20px rgba(255, 165, 0, 0.4); */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cv-glass-button:hover {
+  background: var(--secondary);
+  transform: scale(1.02);
+  box-shadow: 0 1px 20px var( --shadow);
+}

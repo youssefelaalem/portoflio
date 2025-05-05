@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   const lottieRef = useRef();
+  let currentMode = localStorage.getItem("currentMode") || "dark";
   return (
     <section className="flex hero" id="hero">
       <div className="left-section">
@@ -64,6 +65,19 @@ function Hero() {
             rel="noopener noreferrer"
           >
             <div className="icon icon-linkedin-square"></div>
+          </a>
+        </div>
+        <div className="CV_Container">
+          <a
+            className={`${
+              currentMode === "dark" ? "cv-Dark-button" : "cv-glass-button"
+            }`}
+          
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1dhZ2QKFEarUI_cVGX2hh137YzrYbLsd0/view?usp=sharing"
+          >
+            Download CV
           </a>
         </div>
       </div>

@@ -1,34 +1,43 @@
 export const allProjects = [
   {
     name: "Weather App",
-    category: ["react", "api"],
-    p: "this app to know about weather of any city in the world.",
+    category: ["react & Api"],
+    p: "This app to know about weather of any city in the world.",
     imgPath: "/images/weatherapp.png",
+    linkGithub:"https://github.com/youssefelaalem/weather_app",
+    linkProd: "https://weather-app-97r.pages.dev/",
   },
   {
     name: "Ecommerce Js",
-    category: ["js", "css"],
-    p: "this app for Filter some products by Name of product , Price and Category with Checkout Page.",
+    category: ["js", "HTML & Css"],
+    p: "This app for Filter some products by Name of product , Price and Category with Checkout Page.",
     imgPath: "/images/EcommerceJs.png",
     linkGithub: "https://github.com/youssefelaalem/e-commerce-JS",
+  },{
+    name:"Hero Section",
+    category: ["react & Api"],
+    p: "This app for Hero Section with TypeScript and React.",
+    imgPath: "/images/Hero_Section.png",
+    linkGithub: "https://github.com/youssefelaalem/hero_section",
+    linkProd: "https://youssefelaalem.github.io/hero_section/",
   },
   {
     name: "Movie IMDB",
-    category: ["react", "api"],
-    p: "this app for IMDB Movis inforamtion and reviews.",
+    category: ["react & Api"],
+    p: "This app for IMDB Movis inforamtion and reviews.",
     imgPath: "/images/Movies-react.png",
     linkProd: "https://moviesapp-drn.pages.dev/",
     linkGithub: "https://github.com/youssefelaalem/moviesApp",
   },
   {
     name: "Notes App",
-    category: ["js", "css"],
+    category: ["js", "HTML & Css"],
     p: "This app for notes and it will save your note on local storage.",
     imgPath: "/images/notes-js.png",
   },
   {
     name: "ToDoList React",
-    category: ["react"],
+    category: ["react & Api"],
     p: "This is a Todo list app by Redux ToolKit, where you can add tasks and mark them as completed or delete them.",
     imgPath: "/images/TodoList React.png",
     linkProd: "https://todolistapp-4ku.pages.dev/",
@@ -36,14 +45,28 @@ export const allProjects = [
   },
   {
     name: "portoflio-css",
-    category: ["css"],
+    category: ["HTML & Css"],
     p: "This app perfect portoflio by CSS and HTML and JavaScript it include some animations",
     imgPath: "/images/portfolio-css.png",
   },
   {
     name: "css",
-    category: ["css"],
+    category: ["HTML & Css"],
     p: "This app perfect portoflio by CSS and HTML only",
     imgPath: "/images/css.png",
+  },
+  {
+    name: "MERN CHAT",
+    category: ["react & Api", "node", "Backend"],
+    p: "This app is a chat application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to send and receive messages in real-time.",
+    imgPath: "/images/mern-chat.png",
+    linkProd: "https://mern-chat-theta.vercel.app/",
+    linkGithub:"https://github.com/youssefelaalem/MERN_Chat/tree/production"
+  },{
+    name:"booking Clone",
+    category: ["Backend"],
+    p: "This app is a booking clone application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to book hotels and manage their bookings.",
+    imgPath: "/images/Booking_Clone.png",
+    linkGithub:"https://github.com/youssefelaalem/Booking_Clone"
   },
 ];
