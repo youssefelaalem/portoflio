@@ -4,7 +4,7 @@ export const allProjects = [
     category: ["react & Api"],
     p: "This app to know about weather of any city in the world.",
     imgPath: "/images/weatherapp.png",
-    linkGithub:"https://github.com/youssefelaalem/weather_app",
+    linkGithub: "https://github.com/youssefelaalem/weather_app",
     linkProd: "https://weather-app-97r.pages.dev/",
   },
   {
@@ -13,8 +13,9 @@ export const allProjects = [
     p: "This app for Filter some products by Name of product , Price and Category with Checkout Page.",
     imgPath: "/images/EcommerceJs.png",
     linkGithub: "https://github.com/youssefelaalem/e-commerce-JS",
-  },{
-    name:"Hero Section",
+  },
+  {
+    name: "Hero Section",
     category: ["react & Api"],
     p: "This app for Hero Section with TypeScript and React.",
     imgPath: "/images/Hero_Section.png",
@@ -48,6 +49,7 @@ export const allProjects = [
     category: ["HTML & Css"],
     p: "This app perfect portoflio by CSS and HTML and JavaScript it include some animations",
     imgPath: "/images/portfolio-css.png",
+    linkProd: "https://transcendent-phoenix-c7bfdc.netlify.app/",
   },
   {
     name: "css",
@@ -61,12 +63,13 @@ export const allProjects = [
     p: "This app is a chat application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to send and receive messages in real-time.",
     imgPath: "/images/mern-chat.png",
     linkProd: "https://mern-chat-theta.vercel.app/",
-    linkGithub:"https://github.com/youssefelaalem/MERN_Chat/tree/production"
-  },{
-    name:"booking Clone",
+    linkGithub: "https://github.com/youssefelaalem/MERN_Chat/tree/production",
+  },
+  {
+    name: "booking Clone",
     category: ["Backend"],
     p: "This app is a booking clone application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to book hotels and manage their bookings.",
     imgPath: "/images/Booking_Clone.png",
-    linkGithub:"https://github.com/youssefelaalem/Booking_Clone"
+    linkGithub: "https://github.com/youssefelaalem/Booking_Clone",
   },
 ];
