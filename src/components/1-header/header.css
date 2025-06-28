@@ -108,7 +108,7 @@ header .fixed ul.modal li button.icon-close1{
 header .fixed ul.modal li button.icon-close1:hover{
     rotate: 180deg;  
     font-size: 1.7rem;
-    color: crimson;
+    color: crimson !important;
 
 }
 
