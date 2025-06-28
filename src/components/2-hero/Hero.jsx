@@ -27,11 +27,11 @@ function Hero() {
           transition={{ duration: 1 }}
           className="title"
         >
-          Software designer.
+          Software Engineer
         </motion.h1>
         <p className="subtitle">
           I'm Youssef Muhammad Ashref Elaalem, I graduated from the Computer
-          Science Department this year 2024 ,. a web developer specializing in
+          Science Department this year 2024 , a web developer specializing in
           the MERN stack with a focus on frontend development using React. I’m
           passionate about building responsive and dynamic web applications. I
           thrive on solving complex problems and am committed to delivering
