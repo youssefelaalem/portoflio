@@ -75,7 +75,7 @@ function Hero() {
           
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1Sbx38Rx9OfB3c5NbkNbguCVNoKjQ0BUF/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1JfYvKrjo5RHiICpJm-gnV8lF6_W4MHLX/view?usp=sharing"
           >
             Download CV
           </a>
