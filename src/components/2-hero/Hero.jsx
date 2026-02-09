@@ -30,12 +30,11 @@ function Hero() {
           Software Engineer
         </motion.h1>
         <p className="subtitle">
-          I'm Youssef Muhammad Ashref Elaalem, I graduated from the Computer
-          Science Department this year 2024 , a web developer specializing in
-          the MERN stack with a focus on frontend development using React. I’m
-          passionate about building responsive and dynamic web applications. I
-          thrive on solving complex problems and am committed to delivering
-          user-friendly, scalable solutions.
+          I'm Youssef Muhammad Ashref Elaalem, a Software Developer and 2024
+          Computer Science graduate with experience across frontend and backend
+          technologies. I enjoy building scalable web applications, solving
+          complex problems, and delivering clean, user-focused digital
+          experiences.
         </p>
         <div className="allIcons flex">
           <a
@@ -72,7 +71,6 @@ function Hero() {
             className={`${
               currentMode === "dark" ? "cv-Dark-button" : "cv-glass-button"
             }`}
-          
             target="_blank"
             rel="noopener noreferrer"
             href="https://drive.google.com/file/d/1JfYvKrjo5RHiICpJm-gnV8lF6_W4MHLX/view?usp=sharing"
