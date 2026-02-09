@@ -31,6 +31,14 @@ export const allProjects = [
     linkGithub: "https://github.com/youssefelaalem/moviesApp",
   },
   {
+    name: "Dashbord",
+    category: ["react & Api", "Next"],
+    p: "Admin dashboard with authentication, dynamic data tables, charts, and responsive UI using Tailwind CSS",
+    imgPath: "/images/eyegodashboard.png",
+    linkProd: "https://dashboard-eyego-9oxd.vercel.app/",
+    linkGithub: "https://github.com/youssefelaalem/dashboard-eyego",
+  },
+  {
     name: "Notes App",
     category: ["js", "HTML & Css"],
     p: "This app for notes and it will save your note on local storage.",

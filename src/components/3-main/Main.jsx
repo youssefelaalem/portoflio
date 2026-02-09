@@ -8,6 +8,7 @@ const Category_Items = [
   "js",
   "react & Api",
   "Backend",
+  "Next",
 ];
 function Main() {
   const [array, setArray] = useState(allProjects);
