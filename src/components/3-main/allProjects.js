@@ -33,7 +33,7 @@ export const allProjects = [
   {
     name: "Dashboard",
     category: ["react & Api", "Next"],
-    p: "Admin dashboard with authentication, dynamic data tables, charts, and responsive UI using Tailwind CSS",
+    p: "Admin dashboard with authentication, dynamic data tables, charts, and responsive UI using Tailwind CSS.",
     imgPath: "/images/eyegodashboard.png",
     linkProd: "https://dashboard-eyego-9oxd.vercel.app/",
     linkGithub: "https://github.com/youssefelaalem/dashboard-eyego",
@@ -55,14 +55,14 @@ export const allProjects = [
   {
     name: "portoflio-css",
     category: ["HTML & Css"],
-    p: "This app perfect portoflio by CSS and HTML and JavaScript it include some animations",
+    p: "This app perfect portoflio by CSS and HTML and JavaScript it include some animations.",
     imgPath: "/images/portfolio-css.png",
     linkProd: "https://transcendent-phoenix-c7bfdc.netlify.app/",
   },
   {
     name: "css",
     category: ["HTML & Css"],
-    p: "This app perfect portoflio by CSS and HTML only",
+    p: "This app perfect portoflio by CSS and HTML only.",
     imgPath: "/images/css.png",
   },
   {
