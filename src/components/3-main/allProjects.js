@@ -31,7 +31,7 @@ export const allProjects = [
     linkGithub: "https://github.com/youssefelaalem/moviesApp",
   },
   {
-    name: "Dashbord",
+    name: "Dashboard",
     category: ["react & Api", "Next"],
     p: "Admin dashboard with authentication, dynamic data tables, charts, and responsive UI using Tailwind CSS",
     imgPath: "/images/eyegodashboard.png",
